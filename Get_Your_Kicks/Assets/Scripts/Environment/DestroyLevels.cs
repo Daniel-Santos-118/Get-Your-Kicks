@@ -15,7 +15,7 @@ public class DestroyLevels : MonoBehaviour
 
     IEnumerator DestroyClone()
     {
-        yield return new WaitForSeconds(30);
+        yield return new WaitForSeconds(45);
 
         if (parentName == "Ground(Clone)")
         {
